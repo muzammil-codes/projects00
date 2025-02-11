@@ -1,0 +1,51 @@
+body {
+    background-color: #f8f9fa;
+}
+.chat-container {
+    border-radius: 15px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+.bg-purple {
+    background-color: #4b0082; /* shade of purple for a college theme */
+}
+.btn-purple {
+    background-color: #4b0082;
+    border-color: #4b0082;
+    color: #ffffff;
+}
+.college-logo {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    margin-right: 10px;
+}
+.chat-message {
+    margin-bottom: 15px;
+}
+.user-message .message-content {
+    background-color: #e0c9fa; /* light purple for user messages */
+    color: #000000;
+    padding: 10px;
+    border-radius: 10px;
+    display: inline-block;
+}
+.bot-message .message-content {
+    background-color: #e9ecef; /* light gray for bot messages */
+    color: #000000;
+    padding: 10px;
+    border-radius: 10px;
+    display: inline-block;
+}
+.card-header {
+    display: flex;
+    align-items: center;
+}
+.card-header h2 {
+    margin: 0;
+    flex-grow: 1; /* allow the title to take up available space */
+}
+
+.typing-indicator {  /* styles for the typing indicator */
+    font-style: italic;
+    color: #888;
+}
